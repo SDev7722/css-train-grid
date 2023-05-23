@@ -1,0 +1,170 @@
+body {
+  padding: 30px;
+  overflow: scroll;
+}
+
+.wrapper {
+  display: grid;
+  gap: 30px;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  border: 2px solid #0050ff;
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 50px;
+  width: 750px;
+  position: relative;
+  background: white;
+}
+
+.item {
+  width: auto;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  color: #0050ff;
+  border: 2px solid black;
+}
+
+h2 {
+  font-size: 35px;
+  color: #0050ff;
+  margin: 35px 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.task5,
+.task6,
+.task7,
+.task8,
+.task9,
+.task10,
+.task19 {
+  grid-template-columns: 70px 70px;
+}
+
+.task3,
+.task11,
+.task12,
+.task13,
+.task14,
+.task15,
+.task16,
+.task17,
+.task18,
+.task20,
+.task21,
+.task22,
+.task23,
+.task24,
+.task25,
+.task26,
+.task27,
+.task28,
+.task29,
+.task30,
+.task31,
+.task32,
+.task33,
+.task34,
+.task35,
+.task36,
+.task37,
+.task38,
+.task39,
+.task43,
+.task44,
+.task47 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.task12,
+.task13,
+.task14,
+.task15,
+.task16,
+.task17,
+.task18,
+.task19 {
+  height: 600px;
+}
+
+.task24,
+.task25,
+.task26,
+.task27,
+.task28,
+.task29,
+.task34,
+.task35,
+.task36,
+.task37,
+.task38 {
+  grid-auto-rows: 190px;
+}
+
+.task28 .item6,
+.task28 .item3 {
+  font-size: 90px;
+}
+
+.task33 .item {
+  justify-self: start;
+}
+
+.task37 .item {
+  align-self: start;
+}
+
+.task45 {
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.task46 {
+  grid-template-areas: 'first second' 'third fourth';
+}
+.task46 .item1 {
+  grid-area: first;
+}
+.task46 .item2 {
+  grid-area: second;
+}
+.task46 .item3 {
+  grid-area: third;
+}
+.task46 .item4 {
+  grid-area: fourth;
+}
+
+.task47 .item5,
+.task47 .item6 {
+  font-size: 25px;
+}
+
+.task48,
+.task49,
+.task50 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.task48 .item3,
+.task49 .item3,
+.task50 .item3 {
+  grid-column: 1/3;
+}
